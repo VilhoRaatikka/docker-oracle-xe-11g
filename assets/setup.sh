@@ -29,7 +29,7 @@ cp /u01/app/oracle/product/11.2.0/xe/network/admin/listener.ora /u01/app/oracle/
 mv /assets/init.ora /u01/app/oracle/product/11.2.0/xe/config/scripts &&
 mv /assets/initXETemp.ora /u01/app/oracle/product/11.2.0/xe/config/scripts &&
 
-printf 8080\\n1521\\noracle\\noracle\\ny\\n | /etc/init.d/oracle-xe configure &&
+printf 8080\\n1521\\npassword\\npassword\\ny\\n | /etc/init.d/oracle-xe configure &&
 
 echo 'export ORACLE_HOME=/u01/app/oracle/product/11.2.0/xe' >> /etc/bash.bashrc &&
 echo 'export PATH=$ORACLE_HOME/bin:$PATH' >> /etc/bash.bashrc &&
