@@ -1,6 +1,6 @@
 docker-oracle-xe-11g
 ============================
-This is a fork of wnameless/oracle-xe-11g.  The only difference is that the password is `password`
+This is a fork of wnameless/oracle-xe-11g.  The only difference is that the password is `password`.  And the system time zone is new york.
 
 Oracle Express Edition 11g Release 2 on Ubuntu 14.04.1 LTS
 

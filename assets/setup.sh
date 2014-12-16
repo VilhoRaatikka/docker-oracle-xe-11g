@@ -3,6 +3,8 @@
 # avoid dpkg frontend dialog / frontend warnings 
 export DEBIAN_FRONTEND=noninteractive
 
+ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
+
 cat /assets/oracle-xe_11.2.0-1.0_amd64.deba* > /assets/oracle-xe_11.2.0-1.0_amd64.deb
 
 # Install OpenSSH
